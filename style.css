@@ -1,0 +1,39 @@
+#notes{
+   
+  background-color:rgb(180, 198, 205);
+    height:500px;
+    width:300px;
+    border-radius:10px;
+    
+}
+#btn,#btn1{
+    background-color:#2196F3;
+    border-radius: 10px;
+    width:150px;
+    height:40px;
+}
+#main_container{
+    padding:20px;
+    background-color: rgb(222, 203, 203);
+    border-radius: 20px;
+}
+.popupbg{
+    display: none;
+    position: fixed;
+    top: 0%;
+     left: 0%;
+     width: 100%;
+     height: 100%;
+     z-index:999;
+}
+
+#popup{
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color:#ffffff;
+    padding:35px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
