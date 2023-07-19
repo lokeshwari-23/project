@@ -11,33 +11,23 @@ addtask.addEventListener("click", function() {
 
 
  })
-//  btn1.addEventListener("click", (event)=> {
-//     event.preventDefault();
-//     console.log("title clicked")
-
-//     let arr=[];
-//     console.log(arr);
-//     document.getElementById("title").value;
-//  })
 
 btn1.addEventListener("click", (event)=>{
       event.preventDefault();
     let val=document.getElementById("myInputField").value;
-    console.log(val);
+    // console.log(val);
+    let desc=document.getElementById("title2").value;
+    // console.log(desc);
    
     let arr=[];
     arr.push(val);
     console.log(arr); 
+    let description=[];
+    description.push(desc);
+    console.log(description);
     let content=document.getElementById("content");
     content.innerHTML=val;
   
-
-    // const inputFields = document.querySelector(".myForm input[type='text']");
-    // const inputValues = [];
-    
-    //   inputValues.push(inputFields.value);
-    
-    // console.log(inputValues);
   })
  const openPopup = () => {
   popup.style.display = "block";
