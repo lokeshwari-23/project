@@ -21,16 +21,16 @@ addtask.addEventListener("click", function() {
 //  })
 
 btn1.addEventListener("click", (event)=>{
+      event.preventDefault();
     let val=document.getElementById("myInputField").value;
     console.log(val);
    
     let arr=[];
     arr.push(val);
+    console.log(arr); 
     let content=document.getElementById("content");
-
-
-   
-    // event.preventDefault();
+    content.innerHTML=val;
+  
 
     // const inputFields = document.querySelector(".myForm input[type='text']");
     // const inputValues = [];
